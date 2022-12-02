@@ -1,0 +1,291 @@
+body {
+    background-color: rgb(27, 123, 219);
+}
+
+.nav-bar {
+    background-color: #202325;
+}
+
+.brand {
+    color: red;
+    margin: 0;
+}
+
+.nav {
+    color: white;
+}
+.nav :hover {
+    color: dodgerblue;
+}
+
+.navbarLinks {
+    justify-content: end;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.burgerIcon {
+    font-size: 2rem;
+    color: white;
+}
+
+.hero {
+    position: relative;
+}
+.nameSection {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wedsName {
+    font-size: 9rem;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    text-align: center;
+}
+
+.myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    .myVideo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* Invitation section */
+.invitation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invitationText {
+    text-align: center;
+    color: white;
+}
+.invitationName {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.heart {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    
+}
+
+.iconSection {
+    color: white;
+    text-align: center;
+}
+.icons {
+    font-size: 100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.iconText {
+    font-size: 1.5rem;
+}
+
+.receptionSection {
+    background-color: #18415c;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.receptionText {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons2 {
+    font-size: 50px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.iconText2 {
+    font-size: 1.25rem;
+}
+
+.mapSection {
+    background-color: #202325;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.locationText {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageText {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.photosText {
+    font-size: 3rem;
+}
+.imagesSection {
+    display: flex;
+    justify-content: center;
+}
+.photo {
+    border-radius: 50px;
+}
+
+.contactText {
+    font-size: 2rem;
+}
+.contactIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactMode {
+    text-decoration: none;
+    color: white;
+}
+.contactMode :hover {
+    color: white;
+}
+
+
+
+@media screen and (min-width: 721px){
+    .myVideo_portrait {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .wedsName {
+        font-size: 5rem;
+    }
+    .myVideo {
+        display: none;
+    }
+    .myVideo_portrait {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 50%;
+    }
+    @media (min-aspect-ratio: 9/16) {
+        .myVideo_portrait {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio: 9/16) {
+        .myVideo_portrait {
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .invitation {
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    .invitationText {
+        font-size: 16px;
+        text-align: center;
+        color: white;
+    }
+    .invitationName {
+        font-size: 1.5rem;
+    }
+    .heart {
+        font-size: 30px;
+    }
+    .icons {
+        font-size: 50px;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+    .iconText {
+        font-size: 0.75rem;
+    }
+    
+    .receptionSection {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .icons2 {
+        font-size: 25px;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+    .iconText2 {
+        font-size: 0.75rem;
+    }
+
+    .locationText {
+        justify-content: center;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageText {
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .photosText {
+        font-size: 1.5rem;
+    }
+    .images {
+        width: 90% !important;
+    }
+    .photo {
+        border-radius: 20px;
+    }
+    
+    .contactIcons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contactText {
+        font-size: 1.5rem;
+    }
+}
