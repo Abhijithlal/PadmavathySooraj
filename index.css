@@ -157,6 +157,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+.mapArea {
+    height: 300px;
+    width: 400px;
+}
 
 .imageText {
     color: white;
@@ -282,6 +286,10 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .mapArea {
+        height: 200px;
+        width: 300px;
     }
 
     .imageText {
