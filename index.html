@@ -16,7 +16,7 @@
     <div>
       <nav class="navbar navbar-expand-lg nav-bar">
         <div class="container-fluid">
-            <h4 class="brand" href="#">P❤S</h4>
+            <h4 class="brand" href="#">P<span style="color: white;">S</span></h4>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <p class="m-0 mt-1"><i class="fa-solid fa-bars burgerIcon"></i></p>
           </button>
@@ -43,6 +43,10 @@
       </nav>
     </div>
 
+    <button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+      <p class="m-0"><i class="fa-sharp fa-solid fa-angle-up"></i></p>
+    </button>
+
     <div class="hero">
     <video autoplay muted loop class="myVideo">
         <source src="https://github.com/Abhijithlal/PadmavathySooraj/raw/main/Videos/Sooraj_Padmavathy.mp4" type="video/mp4">
@@ -50,10 +54,6 @@
     <video autoplay muted loop class="myVideo_portrait">
         <source src="https://github.com/Abhijithlal/PadmavathySooraj/raw/main/Videos/Sooraj_Padmavathy_portrait.mp4" type="video/mp4">
     </video>
-    <!-- <div>
-      <img src="Images/2.jpg" class="d-block w-100 myPhoto">
-    </div> -->
-
     
     <div class="nameSection">
         <h1 class="wedsName">
@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <div class="container images p-3 w-75" id="photos">
+    <div class="container images p-3 w-75 pb-5" id="photos">
         <div class="imageText">
             <h2 class="photosText">Photos</h2>
         </div>
@@ -167,6 +167,15 @@
               <div class="carousel-item">
                 <img src="Images/7.jpg" class="d-block w-100 photo">
               </div>
+              <div class="carousel-item">
+                <img src="Images/8.jpg" class="d-block w-100 photo">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/9.jpg" class="d-block w-100 photo">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/10.jpg" class="d-block w-100 photo">
+              </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -180,28 +189,68 @@
     </div>
 
     <div class="container-fluid contacts" id="contacts">
-        <div class="container  mb-5">
+        <div class="container">
+          <div class="row">
             <div class="imageText">
-                <h2 class="contactText">Contact us:</h2>
+              <h2 class="contactText">Contact us:</h2>
+            </div>
+            <div class="col-sm-6">
+              <div class="imageText">
+                <h4 class="contactTextName">Padmavathy(Lechu):</h4>
+              </div>
+              <div class="contactIcons">
+                  <div class="iconSection mx-5">
+                      <a class="contactMode" href="tel:+919446776895"><i class="fa-solid fa-phone icons3"></i></i></a>
+                      <p>Phone</p>
+                  </div>
+                  <div class="iconSection mx-5">
+                      <a class="contactMode" href="https://wa.me/+919446776895" target="_blank"><i class="fa-brands fa-whatsapp icons3"></i></a>
+                      <p>WhatsApp</p>
+                  </div>
+                  <div class="iconSection mx-5">
+                      <a class="contactMode" href="https://instagram.com/padmavathy_u?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram icons3"></i></a>
+                      <p>Instagram</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="imageText">
+                <h4 class="contactTextName">Sooraj R Moorthy:</h4>
+              </div>
+              <div class="contactIcons">
+                  <div class="iconSection mx-5">
+                      <a class="contactMode" href="tel:+919446189175"><i class="fa-solid fa-phone icons3"></i></i></a>
+                      <p>Phone</p>
+                  </div>
+                  <div class="iconSection mx-5">
+                      <a class="contactMode" href="https://wa.me/+919446189175" target="_blank"><i class="fa-brands fa-whatsapp icons3"></i></a>
+                      <p>WhatsApp</p>
+                  </div>
+                  <div class="iconSection mx-5">
+                      <a class="contactMode" href="https://instagram.com/soorajrm_45?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram icons3"></i></a>
+                      <p>Instagram</p>
+                  </div>
+              </div>
+            </div>
+            <div class="imageText">
+              <h4 class="contactTextName">Subramonia Iyer:</h4>
             </div>
             <div class="contactIcons">
-                <div class="iconSection">
-                    <a class="contactMode" href="tel:+919446776895"><i class="fa-solid fa-phone icons2"></i></i></a>
+                <div class="iconSection mx-5">
+                    <a class="contactMode" href="tel:+919495928605"><i class="fa-solid fa-phone icons3"></i></i></a>
                     <p>Phone</p>
                 </div>
-                <div class="iconSection">
-                    <a class="contactMode" href="https://wa.me/+919446776895" target="_blank"><i class="fa-brands fa-whatsapp icons2"></i></a>
+                <div class="iconSection mx-5">
+                    <a class="contactMode" href="https://wa.me/+919495928605" target="_blank"><i class="fa-brands fa-whatsapp icons3"></i></a>
                     <p>WhatsApp</p>
                 </div>
-                <div class="iconSection">
-                    <a><i class="fa-brands fa-instagram icons2"></i></a>
-                    <p>Instagram</p>
-                </div>
             </div>
+          </div>
         </div>
     </div>
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
