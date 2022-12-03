@@ -34,9 +34,18 @@ body {
 }
 .nameSection {
     height: 100vh;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
+}
+#scrollText {
+    color: white;
+}
+.scrollDown {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #btn-back-to-top {
@@ -46,6 +55,7 @@ body {
     display: none;
     border-radius: 50%;
     border: solid 5px white;
+    z-index: 10;
 }
 
 .wedsName {
@@ -53,6 +63,7 @@ body {
     font-family: 'Great Vibes', cursive;
     color: white;
     text-align: center;
+    padding-top: 80px;
 }
 
 .myVideo {
@@ -100,10 +111,6 @@ body {
     font-size: 50px;
     padding-left: 2rem;
     padding-top: 2rem;
-}
-
-@media screen and (max-width: 500px) {
-    
 }
 
 .iconSection {
@@ -211,11 +218,18 @@ body {
     .myVideo_portrait {
         display: none;
     }
+    .googleMapsButton {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 720px) {
     .wedsName {
         font-size: 5rem;
+        padding-top: 80px;
+    }
+    .scrollDown {
+        margin-top: 100px;
     }
     .myVideo {
         display: none;
@@ -291,6 +305,25 @@ body {
         height: 200px;
         width: 300px;
     }
+    .googleMapsButton {
+        background-color: dodgerblue;
+        border-radius: 50px;
+        margin-top: 20px;
+        padding: 1rem;
+    }
+    .googleMapsLink {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    .googleMapsLink:hover {
+        text-decoration: none;
+        color: white;
+    }
+    .mapButton {
+        display: flex;
+        justify-content: center;
+    }
 
     .imageText {
         font-size: 1rem;
@@ -310,6 +343,9 @@ body {
     .contactIcons {
         display: flex;
         justify-content: space-evenly;
+    }
+    .icons3 {
+        font-size: 20px;
     }
     .contactText {
         font-size: 1.5rem;

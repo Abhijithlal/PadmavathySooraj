@@ -15,6 +15,14 @@ function scrollFunction() {
   }
 }
 
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+      $('.scrollDown').fadeOut();
+    } else {
+      $('.scrollDown').fadeIn();
+    }
+  });
+
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
