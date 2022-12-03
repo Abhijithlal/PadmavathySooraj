@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(27, 123, 219);
+    background-color: #1b7bdb;
 }
 
 .nav-bar {
@@ -70,7 +70,7 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -10;
     opacity: 50%;
 }
 
@@ -218,6 +218,9 @@ body {
     .myVideo_portrait {
         display: none;
     }
+    .myPhoto {
+        display: none;
+    }
     .googleMapsButton {
         display: none;
     }
@@ -226,7 +229,7 @@ body {
 @media screen and (max-width: 720px) {
     .wedsName {
         font-size: 5rem;
-        padding-top: 80px;
+        padding-top: 120px;
     }
     .scrollDown {
         margin-top: 100px;
@@ -238,8 +241,7 @@ body {
         position: absolute;
         right: 0;
         bottom: 0;
-        z-index: -1;
-        opacity: 50%;
+        z-index: -10;
     }
     @media (min-aspect-ratio: 9/16) {
         .myVideo_portrait {
@@ -249,6 +251,25 @@ body {
     }
     @media (max-aspect-ratio: 9/16) {
         .myVideo_portrait {
+            width: auto;
+            height: 100%;
+        }
+    }
+    .myPhoto {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -50;
+        opacity: 50%;
+    }
+    @media (min-aspect-ratio: 9/16) {
+        .myPhoto {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio: 9/16) {
+        .myPhoto {
             width: auto;
             height: 100%;
         }
@@ -310,6 +331,7 @@ body {
         border-radius: 50px;
         margin-top: 20px;
         padding: 1rem;
+        border: none;
     }
     .googleMapsLink {
         text-decoration: none;
