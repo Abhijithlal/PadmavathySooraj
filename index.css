@@ -213,19 +213,42 @@ body {
 }
 
 
-
-@media screen and (min-width: 721px){
-    .myVideo_portrait {
+@media screen and (min-width: 481px){
+    .myPhoto {
         display: none;
     }
-    .myPhoto {
+}
+@media screen and (min-width: 721px){
+    .myVideo_portrait {
         display: none;
     }
     .googleMapsButton {
         display: none;
     }
 }
-
+@media screen and (max-width: 480px) {
+    
+    .myPhoto {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        z-index: -50;
+        opacity: 50%;
+    }
+    @media (min-aspect-ratio: 9/16) {
+        .myPhoto {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio: 9/16) {
+        .myPhoto {
+            width: auto;
+            height: 100%;
+        }
+    }
+}
 @media screen and (max-width: 720px) {
     .wedsName {
         font-size: 5rem;
@@ -251,26 +274,6 @@ body {
     }
     @media (max-aspect-ratio: 9/16) {
         .myVideo_portrait {
-            width: auto;
-            height: 100%;
-        }
-    }
-    .myPhoto {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        object-fit: cover;
-        z-index: -50;
-        opacity: 50%;
-    }
-    @media (min-aspect-ratio: 9/16) {
-        .myPhoto {
-            width: 100%;
-            height: auto;
-        }
-    }
-    @media (max-aspect-ratio: 9/16) {
-        .myPhoto {
             width: auto;
             height: 100%;
         }
