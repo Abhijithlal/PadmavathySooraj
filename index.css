@@ -229,7 +229,7 @@ body {
 @media screen and (max-width: 720px) {
     .wedsName {
         font-size: 5rem;
-        padding-top: 120px;
+        padding-top: 150px;
     }
     .scrollDown {
         margin-top: 100px;
@@ -259,9 +259,8 @@ body {
         position: absolute;
         display: flex;
         justify-content: center;
-        left: -20%;
-        bottom: 0;
-        z-index: -1;
+        object-fit: cover;
+        z-index: -50;
         opacity: 50%;
     }
     @media (min-aspect-ratio: 9/16) {
