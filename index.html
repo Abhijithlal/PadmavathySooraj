@@ -33,7 +33,7 @@
                 <a class="nav-link nav" href="#location">Location</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav" href="#photos">Photos</a>
+                <a class="nav-link nav" href="#photos">Engagement</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav" href="#contacts">Contacts</a>
@@ -110,6 +110,22 @@
         </div>
     </div>
 
+    <div class="container-fluid mapSection" id="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 locationText">
+                    <h3>Location on<br>Google Maps:</h3>
+                </div>
+                <div class="col-sm-8 map">
+                    <iframe class="mapArea" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15784.697138871967!2d76.9379806!3d8.4824285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b217bd68bb21b34!2sSree%20Padmam%20Kalyanamandapam!5e0!3m2!1sen!2sin!4v1669748442354!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="mapButton">
+              <button class="googleMapsButton"><a class="googleMapsLink" href="https://goo.gl/maps/5o47JoQeVsTBqvu27">Open in Google Maps</a></button>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid receptionSection">
         <div class="container">
             <div class="row">
@@ -136,27 +152,12 @@
         </div>
     </div>
 
-    <div class="container-fluid mapSection" id="location">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 locationText">
-                    <h3>Location on<br>Google Maps:</h3>
-                </div>
-                <div class="col-sm-8 map">
-                    <iframe class="mapArea" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15784.697138871967!2d76.9379806!3d8.4824285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b217bd68bb21b34!2sSree%20Padmam%20Kalyanamandapam!5e0!3m2!1sen!2sin!4v1669748442354!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-            <div class="mapButton">
-              <button class="googleMapsButton"><a class="googleMapsLink" href="https://goo.gl/maps/5o47JoQeVsTBqvu27">Open in Google Maps</a></button>
-            </div>
-        </div>
-    </div>
-
     <div class="container images p-3 w-75 pb-5" id="photos">
         <div class="imageText">
-            <h2 class="photosText">Photos</h2>
+            <h2 class="photosText">Engagement Highlights</h2>
         </div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="Images/1.jpg" class="d-block w-100 photo">
@@ -197,6 +198,16 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+          </div>
+          <div class="EngVideo">
+            <div class="p-3">
+              <video class="w-100" controls>
+                <source
+                  src="https://github.com/Abhijithlal/PadmavathySooraj/raw/main/Videos/Sooraj%20X%20Padmavathy%20Highlight.mp4"
+                  type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
     </div>
 
@@ -244,19 +255,41 @@
                   </div>
               </div>
             </div>
-            <div class="imageText">
-              <h4 class="contactTextName">Subramonia Iyer:</h4>
+            <div class="col-lg-6">
+              <div class="imageText">
+                <h4 class="contactTextName">Subramonia Iyer:</h4>
+              </div>
+              <div class="contactIcons">
+                  <div class="iconSection mx-3">
+                      <a class="contactMode" href="tel:+919495928605"><i class="fa-solid fa-phone icons3"></i></i></a>
+                      <p>Phone</p>
+                  </div>
+                  <div class="iconSection mx-3">
+                      <a class="contactMode" href="https://wa.me/+919495928605" target="_blank"><i class="fa-brands fa-whatsapp icons3"></i></a>
+                      <p>WhatsApp</p>
+                  </div>
+              </div>
             </div>
-            <div class="contactIcons">
-                <div class="iconSection mx-3">
-                    <a class="contactMode" href="tel:+919495928605"><i class="fa-solid fa-phone icons3"></i></i></a>
-                    <p>Phone</p>
-                </div>
-                <div class="iconSection mx-3">
-                    <a class="contactMode" href="https://wa.me/+919495928605" target="_blank"><i class="fa-brands fa-whatsapp icons3"></i></a>
-                    <p>WhatsApp</p>
-                </div>
+            <div class="col-lg-6">
+              <div class="imageText">
+                <h4 class="contactTextName">Uma Subramonian:</h4>
+              </div>
+              <div class="contactIcons">
+                  <div class="iconSection mx-3">
+                      <a class="contactMode" href="tel:+918547574454"><i class="fa-solid fa-phone icons3"></i></i></a>
+                      <p>Phone</p>
+                  </div>
+                  <div class="iconSection mx-3">
+                      <a class="contactMode" href="https://wa.me/+918547574454" target="_blank"><i class="fa-brands fa-whatsapp icons3"></i></a>
+                      <p>WhatsApp</p>
+                  </div>
+              </div>
             </div>
+          </div>
+
+          <div class="copyright">
+            <p class="copyrightText">&#169; Abhijith Lal</p>
+            <a class="copyrightTextEmail" href = "mailto: abhijithlalunni@gmail.com">Contact : abhijithlalunni@gmail.com</a>
           </div>
         </div>
     </div>

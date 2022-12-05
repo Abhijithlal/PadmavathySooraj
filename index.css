@@ -127,7 +127,7 @@ body {
 }
 
 .receptionSection {
-    background-color: #18415c;
+    background-color: #202325;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -148,7 +148,7 @@ body {
 }
 
 .mapSection {
-    background-color: #202325;
+    background-color: #18415c;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -187,6 +187,11 @@ body {
 .photo {
     border-radius: 50px;
 }
+.EngVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .contacts {
     background-color: #202325;
@@ -209,6 +214,25 @@ body {
     color: white;
 }
 .contactMode :hover {
+    color: white;
+}
+.copyright {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.copyrightText {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.copyrightTextEmail {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.copyrightTextEmail:hover {
     color: white;
 }
 
