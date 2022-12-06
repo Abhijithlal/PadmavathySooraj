@@ -187,11 +187,6 @@ body {
 .photo {
     border-radius: 50px;
 }
-.EngVideo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .contacts {
     background-color: #202325;
